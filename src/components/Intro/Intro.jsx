@@ -26,14 +26,17 @@ const Intro = () => {
                 <span>Sarthak Goyal</span>
                 <span>A third year UG at IITK. I am sports enthusiast mostly looking to find someone challenging in any individual sport. Sometimes I draw, sometime I cook too, I could be doing programming or I could be developing some webpage. I used to be a professional chess player currently a member of my college's chess team and represented it in the inter IIT sports meet 2022.</span>
             </div>
-            <button className="button i-button">hire me</button>
+            {/* <button className="button i-button">hire me</button> */}
             <div className="i-icons">
-                <a href="">
+                <a href="https://github.com/sarthak759" target="_blank">
                     <img src={Github} alt="" />
                 </a>
-                
-                <img src={LinkedIn} alt="" />
-                <img src={Instagram} alt="" />
+                <a href="https://www.linkedin.com/in/sarthak-goyal-5536ba202/" target="_blank">
+                    <img src={LinkedIn} alt="" />
+                </a>
+                <a href="https://www.instagram.com/_sg_12914/" target="_blank">
+                    <img src={Instagram} alt="" />
+                </a>
             </div>
         </div>
         <div className="i-right">

@@ -11,16 +11,16 @@ const Works = () => {
   return (
     <div className="works">
         <div className="awesome">
-            <span>Works for All these</span>
-            <span>Brands & clients</span>
+            <span>Uses these programming</span>
+            <span>Languages & Libraries</span>
             <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                C++ for programming
                 <br />
-                 Repellat quis tenetur amet dicta veritatis minus 
+                Mostly React js for frontend development
                 <br /> 
-                animi, alias dolor fugiat in!
+                Node js for backend development
                 <br />
-                animi, alias dolor fugiat in!
+                Firebase, SQL or Mongodb for database
             </span>
                 <button className="button s-button">Hire me</button>
             <div className="blur s-blur" style={{ background: "#ABF1FF94"}}></div>

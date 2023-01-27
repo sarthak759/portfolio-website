@@ -12,12 +12,12 @@ const Services = () => {
   return (
     <div className="services" id='Services'>
         <div className="awesome">
-            <span>My Awesome</span>
-            <span>Services</span>
+            <span>My Main</span>
+            <span>Hobbies</span>
             <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quis tenetur amet dicta veritatis minus 
+                I used to be a professional chess player and I represented IIT Kanpur in inter 
                 <br /> 
-                animi, alias dolor fugiat in!
+                IIT sports meet 2022. Made many projects on Web development and I am <br /> regular at competitive programming
             </span>
             <a href={Resume} target="_blank">
                 <button className="button s-button">Check my CV</button>
@@ -32,8 +32,8 @@ const Services = () => {
             style={{left: '14rem'}}>
                 <Card
                     emoji = {HeartEmoji}
-                    heading = {'Design'}
-                    detail = {"Figma, sketch, Photshop, Adobe, Adobe xd"}
+                    heading = {'Chess'}
+                    detail = {"FIDE rated, U-13 state champion, won medals in many inter college/school tournaments"}
                 />
             </motion.div>
             <motion.div 
@@ -44,7 +44,7 @@ const Services = () => {
                 <Card
                     emoji={Glasses}
                     heading={"Developer"}
-                    detail={"Html, Css, JavaScript, React"}
+                    detail={"Html, Css, JavaScript, React, Nodejs, Express, Jquery, Mongodb"}
                 />
             </motion.div>
             <motion.div 
@@ -54,8 +54,8 @@ const Services = () => {
             style={{top: "19rem", left: "12rem"}}>
                 <Card
                     emoji={Humble}
-                    heading={"UI/UX"}
-                    detail={"some more dummy text too much of it"}
+                    heading={"Programming"}
+                    detail={"Regularly give competetive programming contest on codeforces. Have good knowledge of Data structures and Algorithms"}
                 />
             </motion.div>
             <div className="blur s-blur2" style={{background: "va(--purple)"}}></div>
