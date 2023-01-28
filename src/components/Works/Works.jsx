@@ -22,7 +22,7 @@ const Works = () => {
                 <br />
                 Firebase, SQL or Mongodb for database
             </span>
-                <button className="button s-button">Hire me</button>
+                {/* <button className="button s-button">Hire me</button> */}
             <div className="blur s-blur" style={{ background: "#ABF1FF94"}}></div>
         </div>
         <div className="w-right">

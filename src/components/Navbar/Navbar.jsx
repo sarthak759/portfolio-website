@@ -8,7 +8,7 @@ function Navbar() {
     <div className='n-wrapper'>
         <div className='n-left'>
             <div className='n-name'>Sarthak</div>
-            <Toggle/>
+            {/* <Toggle/> */}
         </div>
         <div className='n-right'>
             <div className="n-list">
@@ -30,7 +30,9 @@ function Navbar() {
                     </Link>
                 </ul>
             </div>
+            <Link spy={true} to='Contact' smooth={true}>
             <button className="button n-button">Contact</button>
+            </Link>
         </div>
     </div>
   )
