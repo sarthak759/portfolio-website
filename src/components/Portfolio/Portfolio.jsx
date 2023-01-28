@@ -19,16 +19,46 @@ const Portfolio = () => {
             className='portfolio-slider'
         >
             <SwiperSlide>
-                <img src={Sidebar} alt="" />
+                <a href="https://github.com/sarthak759/react-practice-website" target="_blank">
+                    <img src={Sidebar} alt="Monster Rolodex"/>
+                </a>
+                <span className='s-text'><br />A place to hire monsters, you can even search your prefered monsters
+                    <br/>
+                    <strong>Skills :</strong> React Js, Sass
+                </span>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={Ecommerce} alt="" />
+                <a href="https://github.com/sarthak759/full-stack-website" target="_blank">
+                <img src={Ecommerce} alt="Full-stack user platform" />
+                </a>
+                <span className='s-text'><br />A platform to post different places you visited or you want to visit
+                    <br />
+                    on your profile. You can login in your own profile or check others profile too.
+                    <br/>
+                    <strong>Skills :</strong> React Js, Firebase, NodeJs, Express, Redux
+                </span>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={MusicApp} alt="" />
+                <a href="https://github.com/sarthak759/e-commerce-website" target="_blank">
+                <img src={MusicApp} alt="e-commerce website" />
+                </a>
+                <span className='s-text'><br />E-commerce website where you can purchase anything of your need
+                    <br />
+                    You can login in your account and purchase them.
+                    <br/>
+                    <strong>Skills :</strong> React Js, Sass, firebase
+                </span>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={HOC} alt="" />
+                <a href="https://github.com/sarthak759/mern-shop" target="_blank">
+                <img src={HOC} alt="mern shop" />
+                </a>
+                <span className='s-text'><br />A basic platform for sellers to add there product 
+                    <br />
+                    for customers to see and buy
+                    <br/>
+                    <strong>Skills :</strong> React Js, Node Js, Express
+                </span>
             </SwiperSlide>
         </Swiper>
     </div>

@@ -62,7 +62,15 @@
 }
 @media screen and (max-width: 480px) {
     .t-wrapper{
+        margin-top: -100%;
         padding: 0;
+        padding-bottom: 50%;
+    }
+    .t-swiper{
+        position: absolute;
+        left: -7rem;
+        top: 18rem;
+        width: 830%!important;
     }
     .testimonial>img{
         width: 70px;
