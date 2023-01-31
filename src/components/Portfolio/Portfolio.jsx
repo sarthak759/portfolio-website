@@ -6,19 +6,20 @@ import Ecommerce from '../../img/ecommerce.png'
 import HOC from '../../img/hoc.png'
 import MusicApp from '../../img/musicapp.png'
 import 'swiper/css'
+import 'animate.css'
 
 const Portfolio = () => {
   return (
     <div className="portfolio" id='Portfolio'>
-        <span>Recent Projects</span>
-        <span>Portfolio</span>
+        <span className='animate__animated animate__jackInTheBox'>Recent Projects</span>
+        <span className='animate__animated animate__jackInTheBox animate__delay-1s'>Portfolio</span>
         <Swiper
             spaceBetween={30}
             slidesPerView={3}
             grabCursor={true}
             className='portfolio-slider'
         >
-            <SwiperSlide>
+            <SwiperSlide className='swiper-slide'>
                 <a href="https://github.com/sarthak759/react-practice-website" target="_blank">
                     <img src={Sidebar} alt="Monster Rolodex"/>
                 </a>
@@ -27,7 +28,7 @@ const Portfolio = () => {
                     <strong>Skills :</strong> React Js, Sass
                 </span>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className='swiper-slide'>
                 <a href="https://github.com/sarthak759/full-stack-website" target="_blank">
                 <img src={Ecommerce} alt="Full-stack user platform" />
                 </a>
@@ -38,7 +39,7 @@ const Portfolio = () => {
                     <strong>Skills :</strong> React Js, Firebase, NodeJs, Express, Redux
                 </span>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className='swiper-slide'>
                 <a href="https://github.com/sarthak759/e-commerce-website" target="_blank">
                 <img src={MusicApp} alt="e-commerce website" />
                 </a>
@@ -49,7 +50,7 @@ const Portfolio = () => {
                     <strong>Skills :</strong> React Js, Sass, firebase
                 </span>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className='swiper-slide'>
                 <a href="https://github.com/sarthak759/mern-shop" target="_blank">
                 <img src={HOC} alt="mern shop" />
                 </a>

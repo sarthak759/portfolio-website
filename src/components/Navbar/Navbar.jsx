@@ -2,12 +2,13 @@ import React from 'react'
 import Toggle from '../Toggle/Toggle'
 import './Navbar.css'
 import {Link} from 'react-scroll'
+import 'animate.css'
 
 function Navbar() {
   return (
     <div className='n-wrapper'>
         <div className='n-left'>
-            <div className='n-name'>Sarthak</div>
+            <div className='n-name animate__animated animate__flip animate__slow'>Sarthak</div>
             {/* <Toggle/> */}
         </div>
         <div className='n-right'>

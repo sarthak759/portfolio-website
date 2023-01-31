@@ -68,9 +68,10 @@
     }
     .t-swiper{
         position: absolute;
-        left: -7rem;
+        left: start;
         top: 18rem;
-        width: 830%!important;
+        width: 300%!important;
+        /* width: fit-content!important; */
     }
     .testimonial>img{
         width: 70px;

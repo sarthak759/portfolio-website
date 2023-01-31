@@ -23,6 +23,7 @@
     color: var(--orange);
     font-weight: bold;
     font-size: 3rem;
+    animation-delay: 1s;
 }
 .i-name>:nth-child(3){
     font-weight: 100;
@@ -38,6 +39,9 @@
     margin-top: 2rem;
     display: flex;
     gap: 0rem;
+    /* animation-name: visible;
+    animation-duration: 2s;
+    animation-delay: 4s; */
 }
 .i-icons>*{
     transform: scale(0.5);

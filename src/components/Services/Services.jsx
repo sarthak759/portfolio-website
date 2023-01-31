@@ -6,15 +6,16 @@ import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Resume from './resume.pdf'
 import {motion} from 'framer-motion'
+import 'animate.css'
 
 const Services = () => {
     const transition = {duration: 1, type: 'spring'}
   return (
     <div className="services" id='Services'>
         <div className="awesome">
-            <span>My Main</span>
-            <span>Hobbies</span>
-            <span>
+            <span className='animate__animated animate__lightSpeedInLeft'>My Main</span>
+            <span className='animate__animated animate__lightSpeedInLeft animate__delay-1s'>Hobbies</span>
+            <span className='animate__animated animate__fadeIn animate__delay-2s animate__slow'>
                 I used to be a professional chess player and I represented IIT Kanpur in inter 
                 <br /> 
                 IIT sports meet 2022. Made many projects on Web development and I am <br /> regular at competitive programming

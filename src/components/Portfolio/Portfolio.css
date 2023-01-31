@@ -20,6 +20,11 @@
     color: var(--gray)!important;
     font-size: 14px!important;
 }
+.portfolio-slider .swiper-slide:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
 @media screen and (max-width: 480px) {
     .s-text{
         visibility: hidden;

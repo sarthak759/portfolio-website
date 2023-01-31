@@ -12,6 +12,7 @@ import Crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import {motion} from 'framer-motion'
+import 'animate.css'
 
 
 const Intro = () => {
@@ -22,9 +23,9 @@ const Intro = () => {
     <div className="intro">
         <div className="i-left">
             <div className="i-name">
-                <span>Hi! I Am</span>
-                <span>Sarthak Goyal</span>
-                <span>A third year UG at IITK. I am sports enthusiast mostly looking to find someone challenging in any individual sport. Sometimes I draw, sometime I cook too, I could be doing programming or I could be developing some webpage. I used to be a professional chess player currently a member of my college's chess team and represented it in the inter IIT sports meet 2022.</span>
+                <span className='animate__animated animate__backInLeft'>Hi! I Am</span>
+                <span className='animate__animated animate__backInLeft'>Sarthak Goyal</span>
+                <span className='animate__animated animate__fadeIn animate__delay-2s animate__slow'>A third year UG at IITK. I am sports enthusiast mostly looking to find someone challenging in any individual sport. Sometimes I draw, sometime I cook too, I could be doing programming or I could be developing some webpage. I used to be a professional chess player currently a member of my college's chess team and represented it in the inter IIT sports meet 2022.</span>
             </div>
             {/* <button className="button i-button">hire me</button> */}
             <div className="i-icons">
